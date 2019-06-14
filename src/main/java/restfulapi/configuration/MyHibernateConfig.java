@@ -20,7 +20,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @Configuration
 @EnableTransactionManagement
-@ComponentScan({"checkpay.configuration"})
+@ComponentScan({"restfulapi.configuration"})
 @PropertySource(value = {"classpath:jdbc.properties"})
 public class MyHibernateConfig {
 
@@ -31,7 +31,7 @@ public class MyHibernateConfig {
     public LocalSessionFactoryBean sessionFactory() {
         LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(dataSource());
-        sessionFactory.setPackagesToScan(new String[]{"checkpay.models"});
+        sessionFactory.setPackagesToScan(new String[]{"restfulapi.models"});
         sessionFactory.setHibernateProperties(hibernateProperties());
         return sessionFactory;
     }

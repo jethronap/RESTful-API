@@ -16,7 +16,7 @@ import org.springframework.web.servlet.view.JstlView;
  */
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "checkpay")
+@ComponentScan(basePackages = "restfulapi")
 public class MyWebConfig {
 
     @Bean
