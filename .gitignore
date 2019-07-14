@@ -1,8 +1,8 @@
 # Omit target folder with contents
 target/
+.settings/
 # Omit only the certain file
 nb-configuration.xml
 .DS_Store
-.classpath/
-.project/
-.settings/
+.classpath
+.project
