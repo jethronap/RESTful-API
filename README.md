@@ -5,5 +5,3 @@
 - json support
 - MySQL 8
 <br>
-
-You can use these [forms](https://www.github.com/jethronap/CheckPayFront) to perform CRUD operations.
